@@ -39,10 +39,8 @@ def parse_vacancies():
     search_url = 'https://spb.hh.ru/search/vacancy?text=python&area=1&area=2'
     params = {
     'L_is_autosearch': 'false',
-    # 'area': '1,2',
     'clusters': 'true',
     'enable_snippets': 'true',
-    # 'text': 'Python',
     'specialization': '1.221',
     'page': 0
     }
