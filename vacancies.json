@@ -1,0 +1,44 @@
+[
+    {
+        "link": "https://spb.hh.ru/vacancy/73247485?from=vacancy_search_list&query=python",
+        "name": "Python программист (Django)",
+        "employer_name": "Stik",
+        "salary_from": "от 30 000 до 50 000 руб. на руки",
+        "city": "Санкт-Петербург, Владимирская, Достоевская, Маяковская, Колокольная улица, 2/18"
+    },
+    {
+        "link": "https://spb.hh.ru/vacancy/74410357?from=vacancy_search_list&query=python",
+        "name": "Разработчик бэкэнд (Python)",
+        "employer_name": "АНО Инфокультура",
+        "salary_from": "от 150 000 руб. на руки",
+        "city": "Москва, Кузнецкий мост, Лубянка, Трубная, Малый Кисельный переулок, 1/9"
+    },
+    {
+        "link": "https://spb.hh.ru/vacancy/74406747?from=vacancy_search_list&query=python",
+        "name": "Python developer на проект мониторинга",
+        "employer_name": "Лента, федеральная розничная сеть, IT ",
+        "salary_from": "з/п не указана",
+        "city": "Москва"
+    },
+    {
+        "link": "https://spb.hh.ru/vacancy/74171804?from=vacancy_search_list&query=python",
+        "name": "Middle BackEnd разработчик (Python)",
+        "employer_name": "ООО Верме",
+        "salary_from": "з/п не указана",
+        "city": "Москва, Белорусская, Белорусская, Белорусская, Нижняя улица, 14с7"
+    },
+    {
+        "link": "https://spb.hh.ru/vacancy/73357816?from=vacancy_search_list&query=python",
+        "name": "Python Developer",
+        "employer_name": "ООО Телеформ ИС",
+        "salary_from": "от 120 000 до 160 000 руб. на руки",
+        "city": "Москва, Дербеневская набережная, 11"
+    },
+    {
+        "link": "https://spb.hh.ru/vacancy/72687504?from=vacancy_search_list&query=python",
+        "name": "Middle Python developer",
+        "employer_name": "ООО Селфсек",
+        "salary_from": "от 150 000 до 200 000 руб. на руки",
+        "city": "Москва, Трубная, Цветной бульвар, Чеховская, Петровский бульвар, 15с1"
+    }
+]
