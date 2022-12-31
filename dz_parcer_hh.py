@@ -57,20 +57,26 @@ def parse_vacancies():
             link = block.find('a').get('href')
             vacancy = parse_vacancy(link)
             if vacancy is not None:
-                vacancies.append(vacancy)
-
+                yield vacancy
+                # vacancies.append(vacancy)
         print(f"[INFO] Обработана страница {params['page']}")
         params['page'] += 1
 
-        with open('vacancies.json', 'w', encoding='utf-8') as f:
-            json.dump(vacancies, f, ensure_ascii=False, indent=4)
-        with open('data_HH.csv', 'w', newline='') as f:
-            writer = csv.DictWriter(f, ['link', 'name', 'employer_name', 'salary_from', 'city'])
-            writer.writeheader()
-            writer.writerows(vacancies)
+
+def data_recording():
+    vacancies = list(parse_vacancies())
+
+    with open('vacancies.json', 'w', encoding='utf-8') as f:
+        json.dump(vacancies, f, ensure_ascii=False, indent=4)
+
+    with open('data_HH.csv', 'w', newline='', encoding='utf-8') as f:
+        writer = csv.DictWriter(f, ['link', 'name', 'employer_name', 'salary_from', 'city'])
+        writer.writeheader()
+        writer.writerows(vacancies)
+
 
 def main():
-    parse_vacancies()
+    data_recording()
 
 
 if __name__ == "__main__":
